@@ -1,0 +1,1 @@
+We are currently working on moving the organizer documentation here. In the meanwhile, please refer to [this guide](https://docs.google.com/document/d/1zt_5-Ssp_g3qsRZWoBcf30C9vBHT0UechfBlC5JWXzg/edit). 
