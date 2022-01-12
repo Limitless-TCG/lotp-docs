@@ -38,6 +38,7 @@ export default defineConfig({
 
 function playerSidebar () {
     return [
+        { text: 'Introduction', link: '/player' },
         { 
             text: 'Quickstart Guide',
             children: [

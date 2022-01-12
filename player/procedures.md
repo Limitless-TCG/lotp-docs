@@ -23,7 +23,10 @@ Click on the match entry to be taken to the match page, where you will find info
 If the tournament is using timed rounds, both the dashboard and the match page include a timer which lets you know how much time is left in the round. If the rounds are untimed, there will instead be a stopwatch that shows the amount of time that passed since the start of the round.
 
 ## The match page
-On the match page you will find all the necessary information needed to start the match against your opponent. There is also a match chat below the main panel that you can use to communicate with your opponent. In case there are any issues with the match, you can call a judge into the chat.
+
+On the match page, you will find your opponent's screen name that you need for adding them in the game. If you are playing in a webcam tournament, instead pay attention to the table number that is listed at the top of the page, next to the tournament and round name. Your tournament organizer most likely has set up numbered channels for you to join in their discord server (as always, refer back to the tournament description for details).
+
+Below the main panel there is a match chat that you can use to communicate with your opponent. In case there are any issues with the match, you can call a judge into the chat.
 
 If the current phase of the tournament is using match check-in, you will need to click the highlighted check-in button within the specified time frame after the beginning of the round. Players that do not show up to the match in time (i.e. that do not check in), will automatically be given a loss for the round. This makes it easier for the tournament staff team to deal with inactive players.
 

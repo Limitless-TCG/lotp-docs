@@ -18,7 +18,7 @@ The date and time displayed everywhere on the site is automatically converted to
 ## The registration form
 On the registration page, enter the ingame name of the account you will be playing with during the tournament. If the tournament you are signing up for is played over webcam instead of a simulator, enter something like your discord name instead (refer to the organizer's instructions).
 
-You may also customize the way you will be displayed in the tournament's standings and pairings. By default, only your username is shown, but you may choose to add the name and country info from your account settings.
+You may also customize the way you will be displayed in the tournament standings and pairings. By default, only your username is shown, but you may choose to add the name and country info from your account settings.
 
 ![registration_form](./img/registration-form.webp)
 
