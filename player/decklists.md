@@ -4,7 +4,7 @@ Most tournaments will require you to submit a decklist before the start of the t
 
 To submit your decklist, find the tournament in your dashboard and click the *Submit decklist* button. Alternatively, if you haven't submitted a decklist yet, you will see a reminder on the public tournament page that will take you to the submission form.
 
-![dashboard_submit](./img/decklists-submit.png)
+![dashboard_submit](./img/decklists-submit.webp)
 
 On there, paste your decklist into the text field and click the *Submit* button. If there are any problems with the decklist, you will be alerted, otherwise you'll see a confirmation. For tips on how to easily get a compatible text version of your decklist see the sections below.
 
@@ -13,7 +13,7 @@ On there, paste your decklist into the text field and click the *Submit* button.
 ## Pokémon TCG
 It is recommended to export your decklist directly from PTCGO. Simply click the **Export Deck** button in the deck manager and the list will be automatically copied to your computer's clipboard.
 
-![ptcgo_export](./img/decklists-ptcgo.png)
+![ptcgo_export](./img/decklists-ptcgo.webp)
 
 ::: info
 If you are using PTCGO in a different language than English, this method still works, however a few cards might not be recognized at first. In particular, the default Basic Energies with no set identifier are known to cause issues. In that case, either manually change their name to the English equivalent, or replace them with ones that are recognized by the website.
@@ -24,9 +24,9 @@ Alternatively, you can use a web based deck builder like [pokegear.app](https://
 ## Digimon Card Game
 It is recommended to create your deck in an online deck builder like [digimoncard.dev](https://digimoncard.dev/) or [digimoncard.io](https://digimoncard.io/) and use the export functionality provided by those sites.
 
-![digimoncard.dev export](./img/decklists-digimon.png)
+![digimoncard.dev export](./img/decklists-digimon.webp)
 
 ## Pokémon VGC
 Team exports need to follow the [pokepaste](https://pokepast.es/syntax.html) format as known from popular teambuilder apps like Showdown. Build your team there and use the provided export functionality.
 
-![showdown export](./img/decklists-showdown.png)
+![showdown export](./img/decklists-showdown.webp)

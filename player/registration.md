@@ -11,7 +11,7 @@ Most tournaments are free to enter, but some may have different entry requiremen
 
 To get to a tournament's registration page, either click the green *register* button in the tournament list, or use the link at the top of the tournament specific pages.
 
-![upcoming_tournaments](./img/registration-list.png)
+![upcoming_tournaments](./img/registration-list.webp)
 
 The date and time displayed everywhere on the site is automatically converted to your device's time zone.
 
@@ -20,7 +20,7 @@ On the registration page, enter the ingame name of the account you will be playi
 
 You may also customize the way you will be displayed in the tournament's standings and pairings. By default, only your username is shown, but you may choose to add the name and country info from your account settings.
 
-![registration_form](./img/registration-form.png)
+![registration_form](./img/registration-form.webp)
 
 ## Your dashboard
 
@@ -28,4 +28,4 @@ Once you registered for a tournament, an entry for it will be added to your [das
 
 If you want to edit any of the information entered in the previous step, or unregister from the tournament before it starts, use the *Edit registration* option here.
 
-![dashboard](./img/registration-dashboard.png)
+![dashboard](./img/registration-dashboard.webp)
