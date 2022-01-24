@@ -1,4 +1,4 @@
-# Tournament registration
+# Tournament Registration
 
 To find a tournament you want to play in, browse the list of [upcoming tournaments](https://play.limitlesstcg.com/tournaments/upcoming). You can filter the list by game or format, and sort it by clicking on one of the table headings.
 
@@ -15,14 +15,15 @@ To get to a tournament's registration page, either click the green *register* bu
 
 The date and time displayed everywhere on the site is automatically converted to your device's time zone.
 
-## The registration form
+## The Registration Form
+
 On the registration page, enter the ingame name of the account you will be playing with during the tournament. If the tournament you are signing up for is played over webcam instead of a simulator, enter something like your discord name instead (refer to the organizer's instructions).
 
 You may also customize the way you will be displayed in the tournament standings and pairings. By default, only your username is shown, but you may choose to add the name and country info from your account settings.
 
 ![registration_form](./img/registration-form.webp)
 
-## Your dashboard
+## Your Dashboard
 
 Once you registered for a tournament, an entry for it will be added to your [dashboard](https://play.limitlesstcg.com/dashboard). It shows you the most important information about the tournament and guides you through all procedures before and during the tournament.
 

@@ -1,9 +1,15 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 
 export default defineConfig({
     lang: 'en-US',
     title: 'Limitless Docs',
     description: 'Player and Organizer documentation for the Limitless Online Tournament Platform.',
+    markdown: {
+        config: md => {
+            md.use(footnote)
+        }
+    },
 
     themeConfig: {
         logo: '/limitless.png',
@@ -29,36 +35,58 @@ export default defineConfig({
         sidebar: {
           '/player': playerSidebar(),
           '/organizer': organizerSidebar(),
-          '/': playerSidebar()
+          '/': []
         },
     }
-    
-
 })
 
 function playerSidebar () {
     return [
         { text: 'Introduction', link: '/player' },
-        { 
+        {
             text: 'Quickstart Guide',
             children: [
-                { text: 'Account creation', link: '/player/account' },
-                { text: 'Tournament registration', link: '/player/registration' },
-                { text: 'Decklist submission', link: '/player/decklists' },
-                { text: 'During the tournament', link: '/player/procedures' },
-                { text: 'Further reading', link: '/player/more' }
+                { text: 'Account Creation', link: '/player/account' },
+                { text: 'Tournament Registration', link: '/player/registration' },
+                { text: 'Decklist Submission', link: '/player/decklists' },
+                { text: 'During the Tournament', link: '/player/procedures' },
+                { text: 'Further Reading', link: '/player/more' }
             ]
         },
-        { 
-            text: 'Additional features',
+        {
+            text: 'Additional Features',
             children: [
-                { text: 'Tournament history', link: '/player/history' },
-                { text: 'Twitch integration', link: '/player/twitch' }
+                { text: 'Tournament History', link: '/player/history' },
+                { text: 'Twitch Integration', link: '/player/twitch' }
             ]
         }
     ]
 }
 
 function organizerSidebar () {
-    return []
+    return [
+        { text: 'Introduction', link: '/organizer' },
+        { 
+            text: 'Essential Concepts',
+            children: [
+                { text: 'Organizations', link: '/organizer/organizations' },
+                { text: 'Creating a Tournament', link: '/organizer/basics' },
+                { text: 'Tournament Structure', link: '/organizer/structure' },
+                { text: 'Publishing the Tournament', link: '/organizer/publishing' },
+                { text: 'Running the Tournament', link: '/organizer/procedures' }
+            ]
+        },
+        {
+            text: 'Advanced',
+            children: [
+                { text: 'More About Organizations', link: '/organizer/organizations-2' },
+                { text: 'Tournament Schedule', link: '/organizer/schedule' },
+                { text: 'Participants List', link: '/organizer/players' },
+                { text: 'Distributing Prizing', link: '/organizer/prizing' }
+            ]
+        },
+        { text: 'Settings Reference', link: '/organizer/reference' },
+        { text: 'Tournament Series', link: '/organizer/series' },
+        { text: 'FAQ', link: '/organizer/faq' }
+    ]
 }

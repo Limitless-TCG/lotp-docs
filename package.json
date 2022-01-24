@@ -8,6 +8,7 @@
     "serve": "vitepress serve"
   },
   "devDependencies": {
+    "markdown-it-footnote": "^3.0.3",
     "vitepress": "^0.21.4"
   }
 }

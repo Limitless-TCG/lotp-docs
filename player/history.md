@@ -1,4 +1,4 @@
-# Tournament history
+# Tournament History
 
 You can track all the tournaments you participated in on your personal tournament history page. Click on *History* in the user menu and you'll have access to all your past placements, decklists and more!
 

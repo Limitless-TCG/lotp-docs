@@ -1,4 +1,4 @@
-# Account creation
+# Account Creation
 
 Before being able to join a tournament, you need to [create an account](https://play.limitlesstcg.com/signup). Unlike the tournament software you might know from in-person tournaments, where tournament organizers input results and print out pairings, everything on here will be online and personalized. Players are able to register for tournaments, submit decklists and report games on their own, for which user accounts are essential.
 
