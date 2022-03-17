@@ -28,6 +28,21 @@ It is recommended to create your deck in an online deck builder like [digimoncar
 
 ![digimoncard.dev export](./img/decklists-digimon.webp)
 
+If the tournament uses side decks, add a new line with the words "Side Deck" below your Main/Egg deck cards, and list all the additional cards below that.
+
+Example input:
+```
+4 Bokomon BT7-081
+3 Salamon BT2-034
+3 BushiAgumon BT4-038
+...
+
+Side Deck
+1 Koichi Kimura BT7-091
+1 Matt Ishida BT2-090
+...
+```
+
 ## Pokémon VGC
 
 Team exports need to follow the [pokepaste](https://pokepast.es/syntax.html) format as known from popular teambuilder apps like Showdown. Build your team there and use the provided export functionality.
