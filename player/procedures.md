@@ -48,3 +48,11 @@ To drop, go to the tournament's entry in your dashboard, click the red *Drop* bu
 ![drop_button](./img/procedures-drop.webp)
 
 You will still appear in the standings of the tournament with the amount of points you earned in the rounds you played.
+
+## Notifications
+
+If you have given the site nofication permissions, your dashboard will automatically send you a desktop notification every time a new round in the tournament is starting. However, please keep in mind that these are desktop notifications only, and won't work when using the site on a mobile device. Your dashboard does not need to be focused to send you a notification, but it needs to be open in the background at least.
+
+To enable notifications, go to *Notifications* in the user menu (below *History*, above the *Dark Theme* toggle) and click the *Enable Notifications* button. This should prompt the browser to ask you for notification permissions.
+
+If you want to disable notifications, follow your browser's documentation, as they all have their individual ways to handle notification settings.
