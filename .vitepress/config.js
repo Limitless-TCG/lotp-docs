@@ -29,12 +29,18 @@ export default defineConfig({
                 text: 'Organizer',
                 link: '/organizer',
                 activeMatch: '^/organizer'
+            },
+            {
+                text: 'Developer',
+                link: '/developer',
+                activeMatch: '^/developer'
             }
         ],
     
         sidebar: {
           '/player': playerSidebar(),
           '/organizer': organizerSidebar(),
+          '/developer': developerSidebar(),
           '/': []
         },
     }
@@ -88,5 +94,19 @@ function organizerSidebar () {
         { text: 'Settings Reference', link: '/organizer/reference' },
         { text: 'Tournament Series', link: '/organizer/series' },
         { text: 'FAQ', link: '/organizer/faq' }
+    ]
+}
+
+function developerSidebar () {
+    return [
+        { text: 'Introduction', link: '/developer' },
+        { 
+            text: 'API Endpoints',
+            children: [
+                { text: 'Tournaments', link: '/developer/tournaments' },
+                { text: 'Games', link: '/developer/games' },
+            ]
+        },
+        { text: 'Webhooks', link: '/developer/webhooks' }
     ]
 }

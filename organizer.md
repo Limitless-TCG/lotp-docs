@@ -6,8 +6,8 @@ title: Organizer Guides
 
 The Limitless tournament platform is an online tournament management solution with tight integration for the following games:
 * Pokémon TCG
-* Digimon Card Game
 * Pokémon VGC
+* Digimon Card Game
 
 Key features of the platform include:
 

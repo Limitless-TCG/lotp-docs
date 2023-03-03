@@ -4,3 +4,4 @@ Welcome to the documentation for the Limitless Tournament Platform. Select one o
 
 * **[Player Guides](/player)**
 * **[Organizer Guides](/organizer)**
+* **[Developer (API) Guides](/developer)**
