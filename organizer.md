@@ -8,6 +8,7 @@ The Limitless tournament platform is an online tournament management solution wi
 * Pokémon TCG
 * Pokémon VGC
 * Digimon Card Game
+* One Piece Card Game
 * Marvel Snap
 
 Key features of the platform include:

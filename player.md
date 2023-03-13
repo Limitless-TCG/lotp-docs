@@ -12,6 +12,7 @@ Tournament matches themselves are played through the following platforms, unless
 * Pokémon TCG: **[Pokémon TCG Online](https://www.pokemon.com/us/pokemon-tcg/play-online/)**
 * Pokémon VGC: **Pokémon Scarlet & Violet**
 * Digimon Card Game: **Discord & Webcam**
+* One Piece Card Game: *no default, refer to the tournament details*
 
 Read our [quickstart guide](/player/account) to find out how to join tournaments, find your opponents, report results, and everything else you need to know! It takes less than 10 minutes to complete and will teach you all the essential information.
 

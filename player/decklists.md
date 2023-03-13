@@ -22,9 +22,15 @@ If you are using PTCGO in a different language than English, this method still w
 
 Alternatively, you can use a web based deck builder like [pokegear.app](https://pokegear.app/), which also provides export functionality.
 
+## Pokémon VGC
+
+Team exports need to follow the [pokepaste](https://pokepast.es/syntax.html) format as known from popular teambuilder apps like Showdown. Build your team there and use the provided export functionality.
+
+![showdown export](./img/decklists-showdown.webp)
+
 ## Digimon Card Game
 
-It is recommended to create your deck in an online deck builder like [digimoncard.dev](https://digimoncard.dev/) or [digimoncard.io](https://digimoncard.io/) and use the export functionality provided by those sites.
+It is recommended to create your deck in an online deck builder like [digimoncard.dev](https://digimoncard.dev/) or [digimoncard.app](https://digimoncard.app/) and use the export functionality provided by those sites.
 
 ![digimoncard.dev export](./img/decklists-digimon.webp)
 
@@ -43,11 +49,22 @@ Side Deck
 ...
 ```
 
-## Pokémon VGC
+## One Piece Card Game
 
-Team exports need to follow the [pokepaste](https://pokepast.es/syntax.html) format as known from popular teambuilder apps like Showdown. Build your team there and use the provided export functionality.
+You can export your deck directly from OPTCGSim, or build it with an online deck builder like [onepiece-cardgame.dev](https://onepiece-cardgame.dev/).
 
-![showdown export](./img/decklists-showdown.webp)
+![OPTCGSim export](./img/decklists-optcgsim.webp)
+
+Example input:
+```
+1 OP01-001
+2 OP01-005
+4 OP01-006
+4 OP01-011
+4 OP01-016
+4 OP01-017
+...
+```
 
 ## Marvel Snap
 
