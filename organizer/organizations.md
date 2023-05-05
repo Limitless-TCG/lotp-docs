@@ -1,6 +1,6 @@
 # Organizations
 
-Tournaments aren't created as an individual user but as part of an organization. The organization can consist of any amount of users with different levels of permissions. When creating an organization, you will be its only member at the beginning, but can invite other users to join.
+Tournaments aren't created as an individual user but as part of an organization. The organization can consist of any number of users, with different levels of permissions. When creating an organization, you will be its only member at the beginning, but can invite other users to join.
 
 ## Creating an Organization
 

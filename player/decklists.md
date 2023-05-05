@@ -12,13 +12,9 @@ On there, paste your decklist into the text field and click the *Submit* button.
 
 ## Pokémon TCG
 
-It is recommended to export your decklist directly from PTCGO. Simply click the **Export Deck** button in the deck manager and the list will be automatically copied to your computer's clipboard.
+It is recommended to export your decklist directly from PTCGL. Simply click the **Export** button in the deck manager and the list will be automatically copied to your computer's clipboard.
 
-![ptcgo_export](./img/decklists-ptcgo.webp)
-
-::: info
-If you are using PTCGO in a different language than English, this method still works, however a few cards might not be recognized at first. In particular, the default Basic Energies with no set identifier are known to cause issues. In that case, either manually change their name to the English equivalent, or replace them with ones that are recognized by the website.
-:::
+![ptcgl_export](./img/decklists-ptcgl.webp)
 
 Alternatively, you can use a web based deck builder like [pokegear.app](https://pokegear.app/), which also provides export functionality.
 
@@ -51,7 +47,7 @@ Side Deck
 
 ## One Piece Card Game
 
-You can export your deck directly from OPTCGSim, or build it with an online deck builder like [onepiece-cardgame.dev](https://onepiece-cardgame.dev/).
+You can export your deck directly from OPTCGSim, or build it with an online deck builder like [onepiece-cardgame.dev](https://onepiece-cardgame.dev/) and use its export functionality.
 
 ![OPTCGSim export](./img/decklists-optcgsim.webp)
 
@@ -63,6 +59,50 @@ Example input:
 4 OP01-011
 4 OP01-016
 4 OP01-017
+...
+```
+
+## Battle Spirits Saga
+
+You can use card names, card numbers (in which case names are automatically added), or both.
+
+If the tournament uses side decks, add a new line with the words "Side Deck" below your Main deck cards, and list all the additional cards below that.
+
+Example input:
+```
+4 Pegacyone
+4 Head Icemaid Fulla
+3 Fortress God Knight Odin Type-X
+4 Divine Moonsky Beast Fanatech Elk
+...
+
+Side Deck
+4 Cannon Beastmech Liomail
+...
+```
+
+## Dragon Ball Super Card Game
+
+You can use card numbers, card names, or both. Leader and Z-Deck cards are automatically detected and do not need to be listed seperately.
+
+If the tournament uses side decks, add a new line with the words "Side Deck" below your Main/Z-deck cards, and list all the additional cards below that.
+
+Example input:
+```
+1 BT18-001
+3 BT17-008
+3 P-177
+2 DB2-143
+3 BT18-005
+...
+```
+
+```
+1 Son Goku & Vegeta // SS4 Son Goku & SS4 Vegeta, In It Together
+3 Son Goku, Adventure's Advent
+3 Broly, Crown of Retribution
+2 Koitsukai, Mechanical Courage
+3 Rush Attack SSB Vegeta
 ...
 ```
 
