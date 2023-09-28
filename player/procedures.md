@@ -12,8 +12,6 @@ Once the tournament check-in opens, usually about 30 minutes before the first ro
 
 ![checkin_button](./img/procedures-checkin-button.webp)
 
-If you did not check in for a tournament that has already started, you can still check in late during the first two Swiss rounds. However, you will be given a loss for every round that has already started at that point.
-
 ## Finding Your Pairings
 
 Your dashboard will automatically update you about your opponents throughout the tournament, and a currently active match will be visibly highlighted. 
@@ -56,3 +54,11 @@ If you have given the site nofication permissions, your dashboard will automatic
 To enable notifications, go to *Notifications* in the user menu (below *History*, above the *Dark Theme* toggle) and click the *Enable Notifications* button. This should prompt the browser to ask you for notification permissions.
 
 If you want to disable notifications, follow your browser's documentation, as they all have their individual ways to handle notification settings.
+
+## Late Check-in
+
+In tournaments that require decklist submission and/or check-in, players that didn't do so in time are removed once the tournament starts. However, the tournament organizer may allow players to join late during the first two round.
+
+If you are in this situation, go to your dashboard, where you'll see the *Late Check-in* button. If you still need to submit your decklist, first do so, and then return to the dashboard. On there, you'll need to confirm that you want to be added back to the tournament. If you choose so, you will receive a loss for every round you missed, and appear in pairings starting from the next round.
+
+If you joined a tournament through late registration, you need to follow the same steps as above. Notably, you need to confirm the "late check-in" in your dashboard, even if the tournament did not originally use a check-in!

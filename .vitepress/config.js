@@ -88,7 +88,8 @@ function organizerSidebar () {
                 { text: 'More About Organizations', link: '/organizer/organizations-2' },
                 { text: 'Tournament Schedule', link: '/organizer/schedule' },
                 { text: 'Participants List', link: '/organizer/players' },
-                { text: 'Distributing Prizing', link: '/organizer/prizing' }
+                { text: 'Distributing Prizing', link: '/organizer/prizing' },
+                { text: 'Team Tournaments', link: '/organizer/3v3' }
             ]
         },
         { text: 'Settings Reference', link: '/organizer/reference' },

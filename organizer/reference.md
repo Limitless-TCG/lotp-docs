@@ -36,9 +36,6 @@ Decklist submission is tied to the selected format of the tournament and will au
 
 For further customization of the decklist submission behavior, like adding custom bans and rules, check out the [Format](#format) section.
 
-#### Digimon Card Game
-Decklist submission checks for the existence of cards and makes sure card counts are correct. New expansions are usually added a few days before their European release date.
-
 ### Procedures
 #### Point Structure
 The scoring system to be used during the tournament. If you make ties worth zero points they are functionally equal to losses.
@@ -66,9 +63,23 @@ You need to enter the players' **usernames** for this option to work, not simply
 ### Player Cap
 You can set a maximum number of players that should be able to play in the tournament. If the cap is reached, players can still register, submit a decklist and check in, but will be placed onto a waiting list. When the tournament starts, after players that didn’t check in or submit a decklist are dropped, as many players as possible from the waiting list will be added into the tournament (in the order they signed up for it), until the cap is reached again. Note that someone one the waiting list needs to submit a decklist and / or check in just like everyone else to make it into the tournament!
 
+### Other Options
+By default, a player's display name in the tournament is their username, with full names being optional. If your tournament requires real names (e.g. important offline tournaments), you can enable the *require full names* option, which will force players to complete their profile and sign up with the name entered there.
+
 ### Custom Fields
 If you need additional information from your players, you can add custom fields to the registration process. They can be either required or optional. You can access the entered information though the player list in the tournament's admin panel.
-However, use this option with care and only ask for information that is absolutely necessary for you to run the tournament, in most cases the regular registration fields are enough.
+However, use this option with care and only ask for information that is necessary for you to run the tournament, in most cases the regular registration fields are enough.
+
+### Late Players
+Choose whether players should be able to join the tournament after it already started. Players who entered the tournament late receive a loss for every round they missed, and are then paired starting from the next round.
+
+If late *Check-in* is activated, players who registered but missed checking in to the tournament can still join. If late *Decklist submission* is activated, players who registered but didn't submit a decklist can still do so. Note that this option does not affect the players already playing — they can not update their list under any circumstance. Late decklist submission is not recommended for tournaments with open decklists.
+
+If late *Registration* is activated, even players who did not originally register can join late (and submit a decklist if necessary).
+
+**All of these options apply for the first two Swiss rounds only!** After the start of round 3, no additonal players are accepted. Elimination Brackets or Round Robin phases do not support late players at all.
+
+See the [player documentation](/player/procedures#late-check-in) for additional details.
 
 ## Phases
 ### Settings
@@ -105,6 +116,8 @@ It is also possible to set both, in which case the fixed point requirement will 
 Round based phases can use timers. They are optional but can help make running tournaments easier. By default, timers will start the next full minute after a round is paired (see [Schedule](/organizer/schedule) for more details on exact timer behavior).  
 **Note that both types of timers (round timer and check-in timer) are independent from each other and start at the same time.**
 
+If you don't want the timers to start automatically, disable the *Automatically start timer when pairing a round* option. There will then be a button in your tournament dashboard that lets you manually start the timer.
+
 #### Round Timer
 If *Automatically resolve unfinished matches in timeout* is disabled, the round timer only has display purposes. If the option is enabled, matches are automatically ended once the timer hits zero. If the match score is tied at that point, the match will be a tie, if one player is up on individual games (in bo3/bo5), they are assigned the winner.
 
@@ -139,7 +152,7 @@ When adding a card to the list of suspended cards, note the following:
 * If only a specific card with that name should be removed, enter the set and number. The set needs to be the set code as used on the website and in PTCGO, not the full name (e.g. "CEC", NOT "Cosmic Eclipse")! For a list of all codes go to the [sets list](https://limitlesstcg.com/cards) in the card database. The number also needs to exactly match the one used on the website.
 * If a card has multiple prints, you just need to add its most recent regular print (so no Full Arts or Secret Rares), ignoring Promo prints.
 
-#### Digimon Card Game
+#### Bandai Games
 Split the card's id into *set* and *number* when adding it to the custom ban list. E.g. The input for "Agumon BT5-007" would be: Name - *Agumon*, Set - *BT5*, Number - *007*.
 
 ### Additional Rules

@@ -35,3 +35,15 @@ Most of you will not be interested in all the games that organizers can run tour
 Note that this selection is per browser, and not linked to the account system. It can also be used when visiting the site without being a logged-in user.
 
 ![game_preferences](./img/game_preferences.webp)
+
+## Team Tournaments
+
+If you are registering for a team (3v3) tournament, the registration form includes one additional step, the team selection. You may either create a new team, or join an existing one. In case you registered a new team, you will get a team ID to share with you teammates. To join your team, they need to enter the ID when selecting the *Join Team* option. You can also look up the ID in your dashboard, or by going back to the registration page.
+
+![team registration #1](./img/team-reg-1.webp)
+
+If you'd like to update the team name before the start of the tournament, you can also do that on the registration page. However, only the team captain, by default the person who registered the team, can change the name. If the team captain unregisters from the tournament, the next player in the team takes their spot.
+
+![team registration #2](./img/team-reg-2.webp)
+
+The order in which your team registers for the tournament determines the seating during matches. The team captain is player A, and the following two players are B and C. If you want to switch spots, you can unregister and join again in the updated order.

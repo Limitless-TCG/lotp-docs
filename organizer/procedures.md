@@ -34,6 +34,10 @@ Another option you find there is *Update streams* (unless it's not a live tourna
 
 In live brackets (*Single/Double Elimination Bracket*, see [Phases documentation](/organizer/reference#phases)), standings are automatically updated once a match ends or is reset, so the *Update standings* button is not needed.
 
+## Re-Pairings
+
+If you for some reason need to re-pair a round, you can use the *Delete round* option under *Advanced Options*. This will reset the tournament to the end of the previous round. However, keep in mind that this will irrevocably delete all matches from the current round, so only use it when you have a very good reason. If players have already began their matches, it's usually better to not disrupt the tournament with a full re-pairing.
+
 ## Removing Inactive Players
 
 In Swiss tournaments, players sometimes leave without dropping from the tournament. If the tournament uses match check-in, they will automatically be given losses for any rounds they don't show up to, but it still hurts the tournament experience for players that would rather have an opponent than get a free win.
