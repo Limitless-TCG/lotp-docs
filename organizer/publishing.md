@@ -6,7 +6,7 @@ However, by default, registration is still closed, as well as possible other use
 
 To change this, it's time to move on to the next page, the *Dashboard*. This is where all tournament operations are controlled from.
 
-Before the tournament, it shows you a countdown to the start of the tournament, any outstandings tasks, and some registration stats. And, more importantly, it lets you open or close registration, decklist submission (if applicable), and check-in (if applicable).
+Before the tournament, it shows you a countdown to the start of the tournament, any outstanding tasks, and some registration stats. And, more importantly, it lets you open or close registration, decklist submission (if applicable), and check-in (if applicable).
 
 To open registration, set the option to *open* so that it turns green, and click the *Update* button. You can always manually open and close all of these options in this way.
 

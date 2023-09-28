@@ -12,7 +12,7 @@ If you set a custom link, the tournament will also be accessible by replacing th
 
 If you set a custom link, the ID version will still work, but internal links throughout the site will use the custom one instead.
 
-**The custom link you choose must be unique among ALL tournaments on the site, not just your own ones!** For this reason, do not choose any generic names like "challenge-1" or similar, only ones that you are sure noone else would use! For example, you could prepend a generic expression with your organizer name, or the name of a tournament series.
+**The custom link you choose must be unique among ALL tournaments on the site, not just your own ones!** For this reason, do not choose any generic names like "challenge-1" or similar, only ones that you are sure no one else would use! For example, you could prepend a generic expression with your organizer name, or the name of a tournament series.
 
 You can also add a custom link for a tournament series in the same way. The option is found in *Edit series > General*.
 E.g. [`https://play.limitlesstcg.com/series/limitless-online-2021`](https://play.limitlesstcg.com/series/limitless-online-2021).

@@ -14,7 +14,7 @@ The tournament platform is made and optimized for online events, but it's also p
 *Other optimizations might follow, if you are planning to run in-person events and have feedback, don't hesitate to contact us.*
 
 #### Rounds
-The default **Live** setting represents regular tournaments, where rounds are played right after each other. In the online environment, it's possible to run an alternative style of tournament, where players get a day or more per round to schedule a time with their opponent, and play on their own schedule. Set this option to **24h+** to add a label that indicates this kind of tournament. Tournaments with this settings are also grouped seperately on a player's dashboard, and do not include the *Streams* page.
+The default **Live** setting represents regular tournaments, where rounds are played right after each other. In the online environment, it's possible to run an alternative style of tournament, where players get a day or more per round to schedule a time with their opponent, and play on their own schedule. Set this option to **24h+** to add a label that indicates this kind of tournament. Tournaments with this settings are also grouped separately on a player's dashboard, and do not include the *Streams* page.
 
 #### Public / Private
 A public (and published) tournament is included on the [list of all tournaments](https://play.limitlesstcg.com/tournaments) and in the organization's profile. If it is not set as public, players will need the direct link to the tournament to find it, but everything else works as usual (unlike an "unpublished" tournament, which can not be interacted with at all as a regular user).
@@ -77,7 +77,7 @@ If late *Check-in* is activated, players who registered but missed checking in t
 
 If late *Registration* is activated, even players who did not originally register can join late (and submit a decklist if necessary).
 
-**All of these options apply for the first two Swiss rounds only!** After the start of round 3, no additonal players are accepted. Elimination Brackets or Round Robin phases do not support late players at all.
+**All of these options apply for the first two Swiss rounds only!** After the start of round 3, no additional players are accepted. Elimination Brackets or Round Robin phases do not support late players at all.
 
 See the [player documentation](/player/procedures#late-check-in) for additional details.
 
@@ -96,7 +96,7 @@ For *Swiss Rounds* and *Single Elimination Rounds*, you manually define how many
 
 ![tcg_single_day_rounds](./img/tcg_single_day.webp)
 
-For a *Single Elimination Rounds* phase, you will usually set the amount of rounds to make it so only one player remains at the end. However, you can also select less, if for example you want finals to be played in bo5 instead of bo3. In that case, you would select one round less than usual, and make the top 2 players move into a seperate phase, a 1-round bo5 Single Elimination phase.
+For a *Single Elimination Rounds* phase, you will usually set the amount of rounds to make it so only one player remains at the end. However, you can also select less, if for example you want finals to be played in bo5 instead of bo3. In that case, you would select one round less than usual, and make the top 2 players move into a separate phase, a 1-round bo5 Single Elimination phase.
 
 **You can still adjust round counts during the tournament**, as long as it does not affect rounds that have already been paired.
 
@@ -110,7 +110,7 @@ Defines how many games a player needs to win to be declared the winner of the ma
 ### Setup
 For all phases after the first one, you need to select how players get to advance to that phase. You can select between a fixed number of players from the top of the standings (*traditional cut*), or to move players that reached a certain amount of match points (*minimum point requirement*).
 
-It is also possible to set both, in which case the fixed point requirement will always guaratee advancement, with the amount of players as a minimum amount of players to advance. E.g. with a setting of "19 points, 32 players" (equivalent to day 2 at official PTCG Regional Championships), all players with 19+ points advance, but if there is less than 32 such players, some with 18 or less might advance as well. 
+It is also possible to set both, in which case the fixed point requirement will always guarantee advancement, with the amount of players as a minimum amount of players to advance. E.g. with a setting of "19 points, 32 players" (equivalent to day 2 at official PTCG Regional Championships), all players with 19+ points advance, but if there is less than 32 such players, some with 18 or less might advance as well. 
 
 ### Timers
 Round based phases can use timers. They are optional but can help make running tournaments easier. By default, timers will start the next full minute after a round is paired (see [Schedule](/organizer/schedule) for more details on exact timer behavior).  
@@ -124,7 +124,7 @@ If *Automatically resolve unfinished matches in timeout* is disabled, the round 
 Automatic match resolution only works during Swiss or Round-Robin rounds, since there are no ties in Elimination brackets.
 
 #### Check-in Timer
-When enabled, players will need to click a visibly highlighten *Check In* button at the start of each match, which signals to their opponent that they are ready to play. If a player does not check in during the specified time frame after the start of the round, they are automatically given a loss. Players that received automatic losses due to inactivity in this way can be tracked and removed from the tournament on a special page of the tournament dashboard.
+When enabled, players will need to click a visibly highlighted *Check In* button at the start of each match, which signals to their opponent that they are ready to play. If a player does not check in during the specified time frame after the start of the round, they are automatically given a loss. Players that received automatic losses due to inactivity in this way can be tracked and removed from the tournament on a special page of the tournament dashboard.
 
 ### Other Notes
 #### Asymmetrical Top Cut
@@ -167,7 +167,7 @@ Selecting one or more of the custom rules will add these restrictions to decklis
 * **No VMAX**: All Pokemon VMAX are banned.
 * **No Tag Team Pokémon**: All Tag Team Pokémon are banned (Tag Team Supporters are still allowed).
 
-Note that these extra rules only apply to PTCGO era cards (HS and newer), since olders ones are not included in our database with all the necessary information.
+Note that these extra rules only apply to PTCGO era cards (HS and newer), since older ones are not included in our database with all the necessary information.
 
 Tournaments that use custom rules will not appear in the format statistics on the website's *Decks* page.
 

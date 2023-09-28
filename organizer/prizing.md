@@ -12,7 +12,7 @@ For example, in the picture below, 1st place is sent 15 codes, 2nd place is sent
 
 ![prizing_distribution](./img/prizes1.webp)
 
-In the big text field, enter all the codes that should be distributed. Codes will be distrubuted from the top down, e.g. in this example 1st place receives the first 15, 2nd place the next 10, etc. If you did not enter enough codes to cover the selected distribution, you will receive an error message.
+In the big text field, enter all the codes that should be distributed. Codes will be distributed from the top down, e.g. in this example 1st place receives the first 15, 2nd place the next 10, etc. If you did not enter enough codes to cover the selected distribution, you will receive an error message.
 
 Once submitted, the page will display the calculated distribution below. You can use that to double check, or copy/save it for future reference.
 

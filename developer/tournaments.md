@@ -123,7 +123,7 @@ Returns an array of all the players in the tournament, including final placing, 
 | Field | Type | Description |
 | --- | --- | --- |
 | player | String | Username/ID used to uniquely identify the player. Does not change between tournaments. |
-| name | String | Display name choosen by the player, can change between tournaments. |
+| name | String | Display name chosen by the player, can change between tournaments. |
 | country | String | ISO alpha-2 code of the player's country, as selected by them. |
 | placing | Number | The player's final placing in the tournament. |
 | record | Object | Contains the number of *wins*, *losses* and *ties* the player finished with. |

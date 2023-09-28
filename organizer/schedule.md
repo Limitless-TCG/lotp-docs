@@ -12,7 +12,7 @@ To edit the schedule, select a round on the right (or bottom, on mobile), and th
 
 ![schedule_editor](./img/schedule.webp)
 
-Now, if you start one of these rounds with the *automatically adjust schedule* option disabled (in the dashboard), timers will respect the choosen time. 
+Now, if you start one of these rounds with the *automatically adjust schedule* option disabled (in the dashboard), timers will respect the chosen time. 
 
 E.g. a round in your tournament finished early and you want to get the next one started immediately. However, your rounds do have a 5 minute check-in timer, and you are afraid some players might miss the round if you start it 5 minutes earlier than originally planned. It is currently X:30. To compromise, you schedule the round start to X:35, but pair the matches immediately. Players that are present can already start playing, but timers won't start until exactly X:35, which means players that left for a bit will be back in time.
 

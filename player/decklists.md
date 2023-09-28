@@ -104,7 +104,7 @@ Side Deck
 
 ## Dragon Ball Super Card Game
 
-You can use card numbers, card names, or both. Leader and Z-Deck cards are automatically detected and do not need to be listed seperately.
+You can use card numbers, card names, or both. Leader and Z-Deck cards are automatically detected and do not need to be listed separately.
 
 If the tournament uses side decks, either use the dedicated side deck field, or add a new line with the words "Side Deck" below your Main/Z-deck cards, and list all the additional cards below that.
 

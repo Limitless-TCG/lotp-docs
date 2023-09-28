@@ -2,7 +2,7 @@
 
 The most important setting of your tournament is the round structure, which you need to define in *Edit tournament > Phases*. The tournament can consist of any amount of phases, which each represent a set of rounds. Every phase can use different settings, for example, it's very common to run the first phase as Swiss rounds, followed by a Single Elimination Bracket as the second phase.
 
-Player scores carry over between phases and players are automatically seeded according to their current placing when moving into a new phase. The different pairing systems (Swiss, Single Elimination, Double Elimination, Round-Robin) can mostly be combined in any way, with a few constrains. See the complete [phase settings refence](/organizer/reference#phases) for all details.
+Player scores carry over between phases and players are automatically seeded according to their current placing when moving into a new phase. The different pairing systems (Swiss, Single Elimination, Double Elimination, Round-Robin) can mostly be combined in any way, with a few constrains. See the complete [phase settings reference](/organizer/reference#phases) for all details.
 
 ![tournament_phases](./img/tournament-phases.webp)
 

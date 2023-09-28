@@ -49,7 +49,7 @@ You will still appear in the standings of the tournament with the amount of poin
 
 ## Notifications
 
-If you have given the site nofication permissions, your dashboard will automatically send you a desktop notification every time a new round in the tournament is starting. However, please keep in mind that these are desktop notifications only, and won't work when using the site on a mobile device. Your dashboard does not need to be focused to send you a notification, but it needs to be open in the background at least.
+If you have given the site notification permissions, your dashboard will automatically send you a desktop notification every time a new round in the tournament is starting. However, please keep in mind that these are desktop notifications only, and won't work when using the site on a mobile device. Your dashboard does not need to be focused to send you a notification, but it needs to be open in the background at least.
 
 To enable notifications, go to *Notifications* in the user menu (below *History*, above the *Dark Theme* toggle) and click the *Enable Notifications* button. This should prompt the browser to ask you for notification permissions.
 
@@ -57,7 +57,7 @@ If you want to disable notifications, follow your browser's documentation, as th
 
 ## Late Check-in
 
-In tournaments that require decklist submission and/or check-in, players that didn't do so in time are removed once the tournament starts. However, the tournament organizer may allow players to join late during the first two round.
+In tournaments that require decklist submission and/or check-in, players that didn't do so in time are removed once the tournament starts. However, the tournament organizer may allow players to join late during the first two rounds.
 
 If you are in this situation, go to your dashboard, where you'll see the *Late Check-in* button. If you still need to submit your decklist, first do so, and then return to the dashboard. On there, you'll need to confirm that you want to be added back to the tournament. If you choose so, you will receive a loss for every round you missed, and appear in pairings starting from the next round.
 
