@@ -6,7 +6,7 @@ Tournaments aren't created as an individual user but as part of an organization.
 
 To create an organization, fill out **[this form](https://play.limitlesstcg.com/user/apply)** and wait for it to be approved.
 
-To check the status of your organizer application, either open the link you received after submitting the form, or check the [organizations page](https://play.limitlesstcg.com/account/settings/orgs) in your user settings. (*Please note that there are currently no email notifications upon approval, so you will have to check back manually.*)
+To check the status of your organizer application, either open the link you received after submitting the form, or check the [organizations page](https://play.limitlesstcg.com/account/settings/orgs) in your user settings.
 
 Approval usually takes about a day or two. In case it takes longer than that, contact us in the discord server and update or re-submit your application.
 

@@ -54,7 +54,8 @@ If you add a twitch name, in a live tournament, the site will automatically chec
 There are four different types of registration:
 * **Open Registration**: Everyone can register, without any restrictions.
 * **Entry Code**: You select a code that players need to enter during registration. The code is the same for everyone. Useful for e.g. community tournaments.
-* **Single-Use Codes**: You generate a list of entry codes. Every code can only be used a single time and is then removed from the list. Useful for e.g. tournaments with entry cost.
+* **Single-Use Codes**: You generate a list of entry codes. Every code can only be used a single time and is then removed from the list. Useful for e.g. tournaments with entry cost.  
+There is an [email tool](/organizer/code-emails) that can be used to make distributing these codes easier.
 * **Invite only**: You enter a list of usernames that are able to register for the tournament. Useful for e.g. invitational tournaments.
 
 *Notes about the Invite setting:* Enter the usernames of all the players that should be able to enter the tournament in the text input that will appear below. All other users will not be able to register for the tournament. Input must be one username per line. 
