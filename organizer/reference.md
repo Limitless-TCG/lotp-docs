@@ -108,6 +108,9 @@ Note that internally, a live bracket is equivalent to a single "round" of matche
 #### Match Mode
 Defines how many games a player needs to win to be declared the winner of the match. In best-of-one, the match is a single game, in best-of-three / best-of-five a player needs two / three game wins.
 
+#### First Table
+Allows to change the starting point of table numbering for that phase (useful for e.g. side events at an in-person tournament).
+
 ### Setup
 For all phases after the first one, you need to select how players get to advance to that phase. You can select between a fixed number of players from the top of the standings (*traditional cut*), or to move players that reached a certain amount of match points (*minimum point requirement*).
 
