@@ -17,4 +17,4 @@ By default, the timers will start on the next full minute after pairings are gen
 If you are not sure about the exact structure of your tournament yet, you can come back to it closer to the start of the tournament. Make sure to include your plans for it in the tournament description, so players know what to expect.
 
 After having started the tournament with a certain phase structure, you can still make adjustments during the tournament.
-**The round count and most other settings of active or upcoming phases can be edited at any time.** If for some reason you want to play a different amount of rounds than originally planed, just edit the appropriate phase. However, you cannot edit the pairing system of a phase that has already started.
+**The round count and most other settings of active or upcoming phases can be edited at any time.** If for any reason you want to play a different number of rounds than originally planed, just edit the appropriate phase. However, you cannot change the pairing system (e.g. Swiss to Single Elimination) of a phase that has already started.
