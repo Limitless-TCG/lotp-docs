@@ -12,11 +12,12 @@ On there, paste your decklist into the text field and click the *Submit* button.
 
 ## Pokémon TCG
 
-It is recommended to export your decklist directly from PTCGL. Simply click the **Export** button in the deck manager and the list will be automatically copied to your computer's clipboard.
+You can export your decklist directly from PTCGL. Simply click the **Export** button in the deck manager and the list will be automatically copied to your clipboard.
+
+Alternatively, create your deck in the [Limitless Deck Builder](https://my.limitlesstcg.com/builder?game=PTCG) and export it with *Share > Copy as Text*.
 
 ![ptcgl_export](./img/decklists-ptcgl.webp)
-
-Alternatively, you can use a web based deck builder like [pokegear.app](https://pokegear.app/), which also provides export functionality.
+![LDM export](./img/ldm-ptcg.webp)
 
 ## Pokémon VGC
 
@@ -24,29 +25,12 @@ Team exports need to follow the [pokepaste](https://pokepast.es/syntax.html) for
 
 ![showdown export](./img/decklists-showdown.webp)
 
-## Disney Lorcana
-
-Cards are added exclusively by their name. We recommend building your deck on [dreamborn.ink](https://dreamborn.ink/) and using their text export functionality.
-
-![dreamborn.ink export](./img/dreamborn-export1.webp)
-![dreamborn.ink export](./img/dreamborn-export2.webp)
-
-Example input:
-```
-4 Aladdin - Street Rat
-4 Aladdin - Heroic Outlaw
-4 Mickey Mouse - Brave Little Tailor
-4 Maleficent - Monstrous Dragon
-4 Maui - Hero to All
-4 Aurora - Regal Princess
-...
-```
-
 ## One Piece Card Game
 
-You can export your deck directly from OPTCGSim, or build it with an online deck builder like [onepiece-cardgame.dev](https://onepiece-cardgame.dev/) and use its export functionality.
+You can export your deck directly from OPTCGSim, or create your deck in the [Limitless Deck Builder](https://my.limitlesstcg.com/builder?game=OP) and export it with *Share > Copy as Text*.
 
 ![OPTCGSim export](./img/decklists-optcgsim.webp)
+![LDM export](./img/ldm-op.webp)
 
 Example input:
 ```
@@ -80,29 +64,26 @@ Side Deck
 ...
 ```
 
-## Battle Spirits Saga
+## Dragon Ball Super Fusion World
 
-You can use card names, card numbers (in which case names are automatically added), or both. We recommend building your deck on [bssdb.dev](https://www.bssdb.dev/) and using their text export functionality.
+You can export your deck directly from Fusion World Digital. Simply click the *Deck Code* button on the *Check Deck* screen to copy the text version to your clipboard.
 
-![bssdb.dev export](./img/bssdb-export1.webp)
-![bssdb.dev export](./img/bssdb-export2.webp)
+![FW Digital export](./img/fw1.webp)
+![FW Digital export](./img/fw2.webp)
 
-If the tournament uses side decks, either use the dedicated side deck field, or add a new line with the words "Side Deck" below your Main deck cards, and list all the additional cards below that.
+Alternatively, create your deck in an online deck builder like [deckbuilder.egmanevents.com](https://deckbuilder.egmanevents.com/) and use its export functionality.
 
 Example input:
 ```
-4 Pegacyone
-4 Head Icemaid Fulla
-3 Fortress God Knight Odin Type-X
-4 Divine Moonsky Beast Fanatech Elk
-...
-
-Side Deck
-4 Cannon Beastmech Liomail
+1 FB01-001
+4 FS01-03
+4 FB01-005
+3 FS01-04
+4 FB01-014
 ...
 ```
 
-## Dragon Ball Super Card Game
+## Dragon Ball Super Masters
 
 You can use card numbers, card names, or both. Leader and Z-Deck cards are automatically detected and do not need to be listed separately.
 
@@ -125,6 +106,93 @@ Example input:
 2 Koitsukai, Mechanical Courage
 3 Rush Attack SSB Vegeta
 ...
+```
+
+## Battle Spirits Saga
+
+You can use card names, card numbers (in which case names are automatically added), or both. We recommend building your deck on [bssdb.dev](https://www.bssdb.dev/) and using their text export functionality.
+
+![bssdb.dev export](./img/bssdb-export1.webp)
+![bssdb.dev export](./img/bssdb-export2.webp)
+
+If the tournament uses side decks, either use the dedicated side deck field, or add a new line with the words "Side Deck" below your Main deck cards, and list all the additional cards below that.
+
+Example input:
+```
+4 Pegacyone
+4 Head Icemaid Fulla
+3 Fortress God Knight Odin Type-X
+4 Divine Moonsky Beast Fanatech Elk
+...
+
+Side Deck
+4 Cannon Beastmech Liomail
+...
+```
+
+## Disney Lorcana
+
+Cards are added exclusively by their name. We recommend building your deck on [dreamborn.ink](https://dreamborn.ink/) and using their text export functionality.
+
+![dreamborn.ink export](./img/dreamborn-export1.webp)
+![dreamborn.ink export](./img/dreamborn-export2.webp)
+
+Example input:
+```
+4 Aladdin - Street Rat
+4 Aladdin - Heroic Outlaw
+4 Mickey Mouse - Brave Little Tailor
+4 Maleficent - Monstrous Dragon
+4 Maui - Hero to All
+4 Aurora - Regal Princess
+...
+```
+
+## Star Wars Unlimited
+
+Cards can be found either by their name (e.g. "Luke Skywalker, Faithful Friend"), or their set code and number combination (e.g. "SOR-005").
+
+Example input:
+```
+1 Luke Skywalker, Faithful Friend
+1 Administrator's Tower
+1 Rebel Pathfinder
+2 Yoda, Old Master
+2 SOR-049
+3 SOR-236
+...
+```
+
+Alternatively, instead of typing out all the names or numbers, build your deck on [swudb.com](https://swudb.com) and use their *.json* export feature. You can paste the json output into our decklist submission form and it will be converted into a plain text version of your list after you submit it. Do not split the json data into main and side deck when using this method — this will be done automatically.
+
+![swu export](./img/swudb.webp)
+
+Example input:
+```
+{
+  "leader": {
+    "id": "SOR_005",
+    "count": 1
+  },
+  "base": {
+    "id": "SOR_029",
+    "count": 1
+  },
+  "deck": [
+    {
+      "id": "SOR_195",
+      "count": 1
+    },
+    {
+      "id": "SOR_044",
+      "count": 2
+    },
+    ...
+  ],
+  "sideboard": [
+    ...
+  ]
+}
 ```
 
 ## Marvel Snap
