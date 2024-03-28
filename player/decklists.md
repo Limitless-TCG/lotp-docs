@@ -19,6 +19,11 @@ Alternatively, create your deck in the [Limitless Deck Builder](https://my.limit
 ![ptcgl_export](./img/decklists-ptcgl.webp)
 ![LDM export](./img/ldm-ptcg.webp)
 
+### PTCGL ALT Cards
+When exporting from PTCGL, certain Promo variants use a in-game exclusive numbering system instead of their proper set code and number. E.g. Cosmo foil Boss's Orders from the Premium Tournament Collection is listed as *SWSHALT 127* instead of *BRS 132* (as printed on the card). If you try to submit a decklist containing such cards, the site will not be able to find them and give you an error. **Don't try to edit the set code manually**, as that could cause the card to be interpreted incorrectly!
+
+If you are trying to submit a Trainer or Energy card and your game is set to English, it's enough to remove the ALT code and number altogether, as the card can then be found by only its name. However, if it is a Pokémon, or card in a different language, the proper set code and number are necessary! Replace the ALT card in your PTCGL deck with a regular version, or import your deck into the Limitless Deck Builder, add the missing card, and export it from there.
+
 ## Pokémon VGC
 
 Team exports need to follow the [pokepaste](https://pokepast.es/syntax.html) format as known from popular teambuilder apps like Showdown. Build your team there and use the provided export functionality.
