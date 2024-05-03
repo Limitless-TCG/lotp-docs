@@ -94,6 +94,10 @@ You can use card numbers, card names, or both. Leader and Z-Deck cards are autom
 
 If the tournament uses side decks, either use the dedicated side deck field, or add a new line with the words "Side Deck" below your Main/Z-deck cards, and list all the additional cards below that.
 
+We recommend building your deck on [dbs-deckplanet.com](https://www.dbs-deckplanet.com/) and using their text export functionality.
+
+![DBS DeckPlanet export](./img/dbs-deckplanet.webp)
+
 Example input:
 ```
 1 BT18-001
