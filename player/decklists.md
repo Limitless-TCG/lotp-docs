@@ -157,7 +157,7 @@ Example input:
 ...
 ```
 
-## Star Wars Unlimited
+## Star Wars: Unlimited
 
 Cards can be found either by their name (e.g. "Luke Skywalker, Faithful Friend"), or their set code and number combination (e.g. "SOR-005").
 
@@ -203,14 +203,3 @@ Example input:
   ]
 }
 ```
-
-## Marvel Snap
-
-Decklist submission for Marvel Snap works with the deck code that you obtain with the in-game *Share* button in the deck editing menu. Alternatively, you can build your deck with an online deck builder like [snap.fan](https://snap.fan/decks/builder/) and use their *Copy Code* functionality. The submitted code will be converted into your list of 12 cards.
-
-Example input:
-```
-eyJDYXJkcyI6W3siQ2FyZERlZklkIjoiVGFza21hc3RlciJ9LHsiQ2FyZERlZklkIjoiQWVybyJ9LHsiQ2FyZERlZklkIjoiWmVybyJ9LHsiQ2FyZERlZklkIjoiUmVkU2t1bGwifSx7IkNhcmREZWZJZCI6IlRpdGFuaWEifSx7IkNhcmREZWZJZCI6IlN1bnNwb3QifSx7IkNhcmREZWZJZCI6IkxpemFyZCJ9LHsiQ2FyZERlZklkIjoiUG9sYXJpcyJ9LHsiQ2FyZERlZklkIjoiU2hlSHVsayJ9LHsiQ2FyZERlZklkIjoiU2h1cmkifSx7IkNhcmREZWZJZCI6IkNvc21vIn0seyJDYXJkRGVmSWQiOiJBcm1vciJ9XX0=
-```
-
-Additional lines in the export (that start with **#**) are automatically ignored.

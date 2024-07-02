@@ -7,12 +7,13 @@ title: Organizer Guides
 The Limitless tournament platform is an online tournament management solution with tight integration for the following games:
 * Pokémon TCG
 * Pokémon VGC
-* Disney Lorcana
 * One Piece Card Game
 * Digimon Card Game
+* Dragon Ball Super Card Game Fusion World
+* Dragon Ball Super Card Game Masters
 * Battle Spirits Saga
-* Dragon Ball Super Card Game
-* Marvel Snap
+* Disney Lorcana
+* Star Wars: Unlimited
 
 Key features of the platform include:
 
