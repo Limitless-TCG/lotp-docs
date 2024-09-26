@@ -45,6 +45,9 @@ If activated, players will need to confirm their attendance by clicking a check-
 
 Players that did not check in, but did everything else required to join the tournament (i.e. submitted a decklist), can still check in late during the first two rounds. In that case they are given a loss for every round that has already started ("missed round" on pairings and the player profile).
 
+#### Standings
+By default, players that drop during the Swiss rounds are still part of the standings and eligible for prizes and ranking points. If you activate the option to remove them from standings, they will instead be listed below everyone else, without a placing, no matter what their final score was.
+
 ### Links
 You can add a discord and a twitch link that will be added to the info on the *Details* page.
 
