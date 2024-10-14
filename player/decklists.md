@@ -203,3 +203,24 @@ Example input:
   ]
 }
 ```
+
+## Pokémon TCG Pocket
+
+You can create your deck in the [Limitless Deck Builder](https://my.limitlesstcg.com/builder?game=pocket) and export it with *Share > Copy as Text*.
+
+![LDM export](./img/ldm-pocket.webp)
+
+Example input:
+```
+2 Pikachu A1 94
+2 Raichu A1 95
+2 Pikachu ex A1 96
+2 Zapdos ex A1 104
+2 Sabrina A1 225
+2 Lt. Surge A1 226
+2 Poké Ball P-A 5
+2 Professor's Research P-A 7
+2 Potion P-A 1
+2 X Speed P-A 2
+...
+```
