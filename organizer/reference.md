@@ -150,11 +150,12 @@ If all tiebreakers are identical for two players, their final order will be rand
 Depending on the selected game, this page gives you options to customize the deck check rules for decklist submission.
 
 ### Suspended Cards
-Allows you to ban cards from being used in the tournament. Do not use this option for cards that are already officially banned in the format, as those are already included by default.
+Allows you to ban cards from being used in the tournament. Do not use this option for cards that are already officially banned in the format, as those are already included by default.  
+If you want to ban all cards from a specific set, enter `*` in the *name* column.
 
 #### Pokémon TCG
 When adding a card to the list of suspended cards, note the following:
-* The card's name needs to exactly (case-sensitive!) match the name as used in the Limitless Card Database / PTCGO. For example, GX Pokémon officially end with "-GX", while Vs do not include the hyphen. Search for the card in the database and copy-paste if you aren't sure how exactly it is named.
+* The card's name needs to exactly (case-sensitive!) match the name as used in the Limitless Card Database / PTCGL. For example, GX Pokémon officially end with "-GX", while Vs do not include the hyphen. Search for the card in the database and copy-paste if you aren't sure how exactly it is named.
 * If the card is a Trainer / Energy, or a Pokémon with only one version, you do not need to add the set and number. Any card with the entered name will not be accepted in decklist submission.
 * If only a specific card with that name should be removed, enter the set and number. The set needs to be the set code as used on the website and in PTCGO, not the full name (e.g. "CEC", NOT "Cosmic Eclipse")! For a list of all codes go to the [sets list](https://limitlesstcg.com/cards) in the card database. The number also needs to exactly match the one used on the website.
 * If a card has multiple prints, you just need to add its most recent regular print (so no Full Arts or Secret Rares), ignoring Promo prints.
@@ -173,8 +174,6 @@ Selecting one or more of the custom rules will add these restrictions to decklis
 * **No Rule Box cards**: All cards with a Rule Box are banned: EX, GX, V, Prism Star, BREAK
 * **No VMAX**: All Pokemon VMAX are banned.
 * **No Tag Team Pokémon**: All Tag Team Pokémon are banned (Tag Team Supporters are still allowed).
-
-Note that these extra rules only apply to PTCGO era cards (HS and newer), since older ones are not included in our database with all the necessary information.
 
 Tournaments that use custom rules will not appear in the format statistics on the website's *Decks* page.
 

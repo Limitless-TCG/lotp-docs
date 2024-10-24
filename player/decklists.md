@@ -222,5 +222,4 @@ Example input:
 2 Professor's Research P-A 7
 2 Potion P-A 1
 2 X Speed P-A 2
-...
 ```
