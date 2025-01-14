@@ -4,7 +4,7 @@ All endpoints are relative to `https://play.limitlesstcg.com/api`.
 
 ## GET /tournaments
 Returns an array of tournaments, with some basic information for categorizing.
-Can be filtered by game or format.
+Can be filtered by game, format and organizer.
 By default the 50 most recent entries are returned, that number can be changed with the *limit* query parameter. To access additional results, you can use the *page* parameter.
 
 #### Query Parameters
@@ -14,6 +14,7 @@ All query parameters are optional.
 | --- | --- | --- |
 | game | String | Game ID, e.g. PTCG, VGC. See */games* endpoint for reference. |
 | format | String | Format ID. See */games* endpoint for reference. |
+| organizerId | Number | Organization ID, if you want a specific organizer's tournaments. |
 | limit | Number | Number of tournaments to be returned. |
 | page | Number | Used for pagination. |
 
