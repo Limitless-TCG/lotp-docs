@@ -29,7 +29,9 @@ There are three different visibility settings for decklists:
 * **Closed**: Only judges of the tournament can see decklists, no public information at all.
 * **Open archetypes, closed decklists**: Decklists are only visible to judges, however everyone's deck archetype name is public (as well as icons, if available). Metagame analysis is available, but without the card usage page.
 
-**You can switch between these settings at any time.** For example, if you want to have closed decklists during the Swiss rounds of a tournament, but open decklists during top cut, you would initially set this option to closed, and then update it before the start of top cut.
+You can switch between these settings at any time. For example, if you want to have closed decklists during the Swiss rounds of a tournament, but open decklists during top cut, you would initially set this option to closed, and then update it before the start of top cut.
+
+If you want decklists to be private during the tournament, but public after it has been completed, enable the *open after tournament* option. In that case, even if the above setting is set to private, decklists will be published as soon as the tournament has ended.
 
 #### Pokémon TCG
 Decklist submission is tied to the selected format of the tournament and will automatically check decklists for legality. There is a variety of current and historic formats available for you to choose from, both official and custom ones. If you want to run a tournament that is not covered by predefined options, select *Custom*. In a custom format tournament, decklist submission will only check for the existence of cards, as well as correct card counts.
@@ -38,7 +40,9 @@ For further customization of the decklist submission behavior, like adding custo
 
 ### Procedures
 #### Point Structure
-The scoring system to be used during the tournament. If you make ties worth zero points they are functionally equal to losses.
+The scoring system to be used during the tournament. If you make ties worth zero points, they are functionally equal to losses.
+
+Besides the regular match based scoring, you can select from options based on invidual games in a match. Those are mainly intended to be used in combination with the two-game format, but can also be used for regular bo3 matches. If the point structure includes the *bonus point*, a player who wins all games in a match receives an additional point for that match.
 
 #### Tournament Check-in
 If activated, players will need to confirm their attendance by clicking a check-in button before the start of the tournament. If they don't, they are automatically removed once the tournament is started. This will result in fewer no-shows during the first round. You can open check-in or schedule check-in in the tournament dashboard. It is recommended to open check-in about 30 minutes before the tournament.
@@ -85,6 +89,8 @@ If late *Registration* is activated, even players who did not originally registe
 
 See the [player documentation](/player/procedures#late-check-in) for additional details.
 
+In the rare case that you want someone to join the tournament with a bye (free win) instead of a loss for the round they missed, first make them join the tournament through the regular late player procedures. Then, go to the bottom of the pairings page and open their *missed round* entry. From there, you can convert that loss into a bye for the round.
+
 ## Phases
 ### Settings
 #### Name
@@ -104,12 +110,13 @@ For a *Single Elimination Rounds* phase, you will usually set the amount of roun
 
 **You can still adjust round counts during the tournament**, as long as it does not affect rounds that have already been paired.
 
-In Brackets and Round Robin, the round count or bracket structure is automatically determined by the amount of players in the phase. Brackets will always be set up so that they play out until the end. Unlike Single Elimination *Rounds*, you can not end a bracket before it reaches the finals. **For this reason *Single Elimination Bracket* and *Double Elimination Bracket* should only the used as the final phase of a tournament.** All other phases types can be chained at will.
+In Brackets and Round-Robin, the round count or bracket structure is automatically determined by the amount of players in the phase. Brackets will always be set up so that they play out until the end. Unlike Single Elimination *Rounds*, you can not end a bracket before it reaches the finals. **For this reason *Single Elimination Bracket* and *Double Elimination Bracket* should only be used as the final phase of a tournament.** All other phases types can be chained at will.
 
 Note that internally, a live bracket is equivalent to a single "round" of matches, which is why only the start of the bracket / phase is listed on the tournament's schedule page.
 
 #### Match Mode
-Defines how many games a player needs to win to be declared the winner of the match. In best-of-one, the match is a single game, in best-of-three / best-of-five a player needs two / three game wins.
+Defines how many games a player needs to win to be declared the winner of the match. In best-of-one, the match is a single game, in best-of-three / best-of-five a player needs two / three game wins.  
+If you select the two-game format (only available for Swiss and Round-Robin), matches are exactly two games, even if the score is 1-1 (usually used in combination with game-based instead of match-based point structures).
 
 #### First Table
 Allows to change the starting point of table numbering for that phase (useful for e.g. side events at an in-person tournament).
@@ -177,4 +184,4 @@ Selecting one or more of the custom rules will add these restrictions to decklis
 
 Tournaments that use custom rules will not appear in the format statistics on the website's *Decks* page.
 
-Pre-configured custom formats like *Gym Leader Challenge* that can be selected initially already include their special rules! Don’t use the settings here when creating a tournament in that format (you can still use the ban list though!), as it will cause them to be excluded from statistics. (Unless of course you want to add rules that are not already part of the custom format.)
+Pre-configured custom formats like *Gym Leader Challenge*, that can be selected in the format setting, already include their special rules! Don’t use the settings here when creating a tournament in that format (you can still use the ban list though!), as it will cause them to be excluded from statistics. (Unless of course you want to add rules that are not already part of the custom format.)
