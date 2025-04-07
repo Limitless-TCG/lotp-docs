@@ -69,6 +69,24 @@ Side Deck
 ...
 ```
 
+## Gundam Card Game
+
+It is recommended to create your deck with an online deck builder like [whitebase.dev](https://www.whitebase.dev/) and use their export functionality.
+
+![whitebase.dev export](./img/gundam-1.webp)
+![whitebase.dev export](./img/gundam-2.webp)
+
+Example input:
+```
+4 White Base ST01-015
+3 Amuro Ray ST01-010 
+3 Heero Yuy ST02-010
+1 Saint Gabriel Institute ST02-015
+2 Banagher Links GD01-088
+3 Gundam ST01-001
+...
+```
+
 ## Dragon Ball Super Fusion World
 
 You can export your deck directly from Fusion World Digital. Simply click the *Deck Code* button on the *Check Deck* screen to copy the text version to your clipboard.
