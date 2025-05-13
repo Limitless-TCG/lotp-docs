@@ -1,10 +1,17 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 
+const description = 'Player, organizer and developer documentation for the Limitless Online Tournament Platform.'
+
 export default defineConfig({
     lang: 'en-US',
     title: 'Limitless Docs',
-    description: 'Player and Organizer documentation for the Limitless Online Tournament Platform.',
+    description,
+    head: [
+        ['meta', { property: 'og:title', content: 'Limitless Docs' }],
+        ['meta', { property: 'og:description', content: description }],
+        ['meta', { property: 'og:image', content: 'https://docs.limitlesstcg.com/preview.png' }]
+    ],
     markdown: {
         config: md => {
             md.use(footnote)
