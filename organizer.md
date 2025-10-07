@@ -16,6 +16,7 @@ The Limitless tournament platform is an online tournament management solution wi
 * Battle Spirits Saga
 * Disney Lorcana
 * Star Wars: Unlimited
+* Riftbound
 
 Key features of the platform include:
 
