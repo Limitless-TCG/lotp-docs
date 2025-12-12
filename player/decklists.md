@@ -244,16 +244,14 @@ Example input:
 
 ## Riftbound
 
-Use a deck builder app of your choice and export your decklist as text. We don't have a recommended builder yet, but most of them should be mostly compatible. 
-If the deck builder uses your Legend's name tag as part of the card name, the card might not be recognized. In that case, remove the name tag and leave only the card name (e.g. "Swift Scout" instead of "Teemo, Swift Scout"). When in doubt, you can look up the required spelling of a card in the [card list](https://limitlesstcg.com/riftbound). Alternatively, you can submit cards using the set code and card number (e.g. "3 OGN-197").
+We recommend building your deck with the [Piltover Archive deck builder](https://piltoverarchive.com/deckbuilder). To obtain a compatible export, click on *Export* and select the *Text* option.
 
-Runes and Battlefields are automatically recognized and can be listed together with the main deck cards.
+![PA export](./img/piltover.webp)
 
-If the tournament uses side decks, either use the dedicated side deck field, or add a new line with the words "Side Deck" below your Main/Rune deck cards, and list all the additional cards below that.
 
 Example input:
 ```
-1 Lady of Luminosity - Starter
+1 Lux, Lady of Luminosity
 1 Aspirant's Climb
 1 Hallowed Tomb
 1 Startipped Peak
@@ -262,10 +260,5 @@ Example input:
 1 Lux, Crownguard
 3 Daring Poro
 3 Soaring Scout
-...
-
-Side Deck
-3 Salvage
-1 Garbage Grabber
 ...
 ```
