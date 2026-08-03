@@ -11,9 +11,9 @@ If you run into any questions or issues, or have other feedback, join our **[Dis
 :::
 
 ## Authentication
-With the exception of the `/decks` endpoint in `/games`, **you do NOT need an API key to access the API**. Rate limits apply and can be checked through the rate limit response headers.
+With the exception of the `/decks` endpoint in `/games` (which contains deck categorization rules, not tournament data), **you do NOT need an API key to access the API**. Rate limits apply and can be checked through the rate limit response headers.
 
-If you need a higher usage limit, or access to the decks endpoint, you can apply for an API key. However, these are not meant for private use, and are only given out to public-facing projects that have a legitimate use-case.
+If you need a higher usage limit, or access to the deck rules endpoint, you can apply for an API key. However, these are not meant for private use, and are only given out to public-facing projects that have a legitimate use-case.
 
 To request an API key, go to [your user API settings](https://play.limitlesstcg.com/account/settings/api) and fill out the form that is linked at the top.
 
