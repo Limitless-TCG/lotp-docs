@@ -70,6 +70,7 @@ In addition to the fields listed above:
 | → logo | String | If available, the url of the organizer's uploaded profile picture. | 
 | platform | String | Abbreviation/ID of the platform the tournament is played on. See */games* endpoint for reference. |
 | decklists | Boolean | Indicates whether the tournament used decklist / teamlist submission. |
+| multideck | Boolean | Indicates whether it's a multi-deck tournament (PTCG Pocket specific). |
 | isPublic | Boolean | Indicates whether the tournament is listed publicly (otherwise accessible through direct link only). |
 | isOnline | Boolean | Set to true if the tournament is played online, false if it's an in-person event. |
 | phases | Object[] | The tournament structure as an array of objects, one per phase. |
@@ -131,7 +132,11 @@ Returns an array of all the players in the tournament, including final placing, 
 | record | Object | Contains the number of *wins*, *losses* and *ties* the player finished with. |
 | decklist | (game specific) | Contains the decklist / teamlist of the player, format differs by game. |
 | deck | Object | If the game has support for it, this field contains the player's auto assigned deck type. |
+| decklists | Object | (multi-deck tournaments only) |
+| decks | Object | (multi-deck tournaments only) |
 | drop | Number | If the player dropped from the tournament, this field contains the round during which they did so. |
+
+In multi-deck tournaments, decks['1'] contains the deck type for decklists['1'], and so on.
 
 #### Example Response
 ```json
@@ -178,6 +183,10 @@ Returns an array of all the matches that have been played in the tournament.
 | player1 | String | Username/ID of player A |
 | player2 | String | Username/ID of player B. If empty, the match entry is either a bye or an automatic loss for tardiness. |
 | winner | String/Number | Username/ID of the winning player, *0* if it ended in a tie, *-1* if it ended in a double loss. |
+| games | Object | Further details on the individual games in this match. |
+| bans | Object | (only for multi-deck tournaments with bans picks) |
+
+In multi-deck tournaments, "games.1.p1deck": "2" means the player used their deck in spot #2 during the first game. "bans.p1": [ "2" ] means player1's deck in spot #2 was ban-picked by player2 for this match.
 
 #### Example Response
 ```json
